@@ -1,0 +1,21 @@
+Mikro projekt wymagania 
+
+na 3/3.5:
+
+-prosty layout na podstawie w3schools 
+-3 podstrony
+-CSS
+-prosty formularz
+
+na 4/4.5:
+
+-wykorzystany JS
+-walidacja danych w formularzu
+-strona responsywna
+-ewentualne postawienie strony na jakims prostym serwerze
+
+na 5.0:
+
+-wygląd :)
+
+Stronki: w3schools tutorialsoint
