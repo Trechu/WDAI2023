@@ -23,17 +23,34 @@
         <nav id="nav-menu">
             <button class="nav" id="info-link">O mnie</button><br><br>
             <button class="nav" id="hobby-link">Hobby</button><br><br>
-            <button class="nav" id="recom-link">Polecenia</button><br><br>
+            <button class="nav" id="recom-link">Rekomendacje</button><br><br>
             <button class="nav" id="contact-link">Kontakt</button><br><br>
         </nav>
         <article class="article-spot" id="my-info">
-            O mnie
+            <h1 id="welcome-sign">Witaj!</h1>
+            <p>Nazywam się Tomasz i jestem studentem II roku Informatyki na Akademii Górniczo-Hutniczej w Krakowie</p>
+            <p>Znajdujesz się właśnie na mojej stronie, którą tworzę w ramach mikro projektu na przedmiocie WDAI</p>
+            
         </article>
         <article class="article-spot" id="my-hobby">
             Hobby
         </article>
         <article class="article-spot" id="my-recom">
-            Rekomendacje
+            <p id="recom-text">Jeżeli zainteresowały Cię książki, które polecałem we 
+                wcześniejszej zakładce to wypełnij ten krótki formularz
+                podając swoje dane kontaktowe oraz to co przypadło Ci 
+                do gustu, a ja odezwę się do Ciebie z moimi sugestiami
+                </p>
+            <form>
+                <label for="name">Imię:</label><br>
+                <input type="text" id="name" name="name" class="submitter"><br>
+                <label for="sname">Nazwisko:</label><br>
+                <input type="text" id="sname" name="sname" class="submitter"><br>
+                <label for="email">Adres email:</label><br>
+                <input type="email" id="email" name="email" class="submitter"><br>
+                <label for="fill">O jakiej serii chciałbyś usłyszeć:</label><br>
+                <input type="text" id="fill" name="fill" class="submitter">
+            </form>
         </article>
         <article class="article-spot" id="my-contact">
             Kontakt

@@ -23,10 +23,9 @@ button.nav {
     justify-content: center;
     background-color: #303030;
     font-size: 5vw;
-    width: 40%;
+    width: 40vw;
     text-align: center;
     color: wheat;
-    
 
 }
 
@@ -38,7 +37,7 @@ button.nav {
     background-color: #303030;
     text-align: center;
     font-size: 5vw;
-    width: 40%;
+    width: 40vw;
     color: wheat;
     
 }
@@ -47,13 +46,13 @@ button.nav {
     display: flex;
     background-color: gray;
     width: 12%;
-    height: 600px;
+    height: 70vh;
     float: left;
     padding: 5%;
     vertical-align: auto;
     flex-direction: column;
     font-size: 2vw;
-    line-height: 4vw;
+    line-height: 4vh;
 }
 
 .article-spot {
@@ -62,11 +61,20 @@ button.nav {
     background-color: whitesmoke;
     float: left;
     width: 68%;
-    height: 600px;
+    height: 70vh;
     padding: 5%;
     font-size: 3vw;
 }
-
+#welcome-sign {
+    text-align: center;
+}
+#recom-text {
+    text-align: center;
+}
+.submitter {
+    width: 30vw;
+    height: 3vw;
+}
 #footer-spot {
     clear: both;
     display: flex;
