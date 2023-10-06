@@ -23,7 +23,7 @@ document.getElementById("info-link").onclick = function() {
     for(let i = 0; i < articles.length; i++){
         articles[i].style.display = "none";
     }
-    document.getElementById("my-info").style.display = "flex";
+    document.getElementById("my-info").style.display = "block";
     
 };
 document.getElementById("hobby-link").onclick = function() {
@@ -39,7 +39,7 @@ document.getElementById("hobby-link").onclick = function() {
     for(let i = 0; i < articles.length; i++){
         articles[i].style.display = "none";
     }
-    document.getElementById("my-hobby").style.display = 'flex';
+    document.getElementById("my-hobby").style.display = 'block';
 };
 document.getElementById("recom-link").onclick = function() {
     const navs = document.getElementsByClassName("nav");
@@ -54,7 +54,7 @@ document.getElementById("recom-link").onclick = function() {
     for(let i = 0; i < articles.length; i++){
         articles[i].style.display = "none";
     }
-    document.getElementById("my-recom").style.display = 'flex';
+    document.getElementById("my-recom").style.display = 'block';
 };
 document.getElementById("contact-link").onclick = function() {
     const navs = document.getElementsByClassName("nav");
@@ -69,7 +69,7 @@ document.getElementById("contact-link").onclick = function() {
     for(let i = 0; i < articles.length; i++){
         articles[i].style.display = "none";
     }
-    document.getElementById("my-contact").style.display = 'flex';
+    document.getElementById("my-contact").style.display = 'block';
 };
 
 workingClock()
