@@ -37,7 +37,9 @@ document.getElementById("hobby-link").onclick = function() {
     element.style.textShadow = "1px 1px #000000";
     const articles = document.getElementsByClassName("article-spot");
     for(let i = 0; i < articles.length; i++){
-        articles[i].style.display = "none";
+        if (articles[i].style.display != "none"){
+            articles[i].style.display = "none";
+        }
     }
     document.getElementById("my-hobby").style.display = 'block';
 };
@@ -71,6 +73,33 @@ document.getElementById("contact-link").onclick = function() {
     }
     document.getElementById("my-contact").style.display = 'block';
 };
+
+document.getElementById("submit-button").onclick = function(){
+    var flag = 0;
+    var firstName = document.getElementById("fname").value;
+    if(firstName == ""){
+        alert("Proszę podaj swoje imię");
+        flag = 1;
+    }
+    var surName = document.getElementById("sname").value;
+    if(surName == ""){
+        alert("Proszę podaj swoje nazwisko");
+        flag = 1;
+    }
+    if( document.getElementById("email").validity.valid){
+
+    } else {
+        alert("Podano niewłaściwy email");
+        flag = 1;
+    }
+
+    if(flag == 0){
+        document.getElementById("cross").style.display = "none";
+        document.getElementById("check").style.display = "block";
+    }
+}
+
+
 
 workingClock()
 setInterval(workingClock,1000)

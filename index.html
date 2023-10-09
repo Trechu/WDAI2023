@@ -6,6 +6,7 @@
         <meta name="keywords" content="About me page for WDAI2023 WIET">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
     </head>
 
     <body>
@@ -21,13 +22,13 @@
             </header>
         </header>
         <nav id="nav-menu">
-            <button class="nav" id="info-link">O mnie</button><br><br>
-            <button class="nav" id="hobby-link">Hobby</button><br><br>
-            <button class="nav" id="recom-link">Rekomendacje</button><br><br>
-            <button class="nav" id="contact-link">Kontakt</button><br><br>
+            <button class="nav" id="info-link">O mnie</button>
+            <button class="nav" id="hobby-link">Hobby</button>
+            <button class="nav" id="recom-link">Rekomendacje</button>
+            <button class="nav" id="contact-link">Kontakt</button>
         </nav>
         <article class="article-spot" id="my-info">
-            <h1 id="welcome-sign">Witaj!</h1>
+            <h1 id="welcome-sign">Witaj!</h1><hr>
             <p>Nazywam się Tomasz i jestem studentem II roku Informatyki na Akademii Górniczo-Hutniczej w Krakowie</p>
             <p>Znajdujesz się właśnie na mojej stronie, którą tworzę w ramach mikro projektu na przedmiocie WDAI</p>
             
@@ -42,15 +43,19 @@
                 do gustu, a ja odezwę się do Ciebie z moimi sugestiami
                 </p>
             <form>
-                <label for="name">Imię:</label><br>
-                <input type="text" id="name" name="name" class="submitter"><br>
-                <label for="sname">Nazwisko:</label><br>
+                <label for="fname" class="formlabel">Imię:</label><br>
+                <input type="text" id="fname" name="fname" class="submitter"><br>
+                <label for="sname" class="formlabel">Nazwisko:</label><br>
                 <input type="text" id="sname" name="sname" class="submitter"><br>
-                <label for="email">Adres email:</label><br>
+                <label for="email" class="formlabel">Adres email:</label><br>
                 <input type="email" id="email" name="email" class="submitter"><br>
-                <label for="fill">O jakiej serii chciałbyś usłyszeć:</label><br>
-                <input type="text" id="fill" name="fill" class="submitter">
+                <label for="fill" class="formlabel">O jakiej serii chciałbyś usłyszeć:</label><br>
+                <input type="text" id="fill" name="fill" class="submitter"><br>
             </form>
+            <input type="submit" id="submit-button"><br>
+
+            <img src="cross.jpg" class="valid-img" id="cross">
+            <img src="check.jpg" class = "valid-img" id="check">
         </article>
         <article class="article-spot" id="my-contact">
             Kontakt
