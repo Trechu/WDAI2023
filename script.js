@@ -86,16 +86,23 @@ document.getElementById("submit-button").onclick = function(){
         alert("Proszę podaj swoje nazwisko");
         flag = 1;
     }
-    if( document.getElementById("email").validity.valid){
-
-    } else {
-        alert("Podano niewłaściwy email");
+    if(document.getElementById("email").value == ""){
+        alert("Podaj swój email")
         flag = 1;
+    }
+    else {
+        if( document.getElementById("email").validity.valid){
+
+        } else {
+            alert("Podano niewłaściwy email");
+            flag = 1;
+        }
     }
 
     if(flag == 0){
         document.getElementById("cross").style.display = "none";
         document.getElementById("check").style.display = "block";
+        document.getElementById("submit-button").style.display = "none";
     }
 }
 
