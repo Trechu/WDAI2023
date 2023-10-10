@@ -55,6 +55,7 @@ button.nav {
 
 #nav-menu {
     display: flex;
+    position: sticky;
     background-color: gray;
     width: 96%;
     height: 4vh;
@@ -129,4 +130,38 @@ button.nav {
 #info-link {
     font-weight: 550;
     text-shadow: 1px 1px #000000;
+}
+
+/* HOBBY PAGE CSS PART */
+
+#travel-h {
+    text-align: center;
+    align-items: center;
+}
+#travel-p {
+    line-height: 100%;
+}
+#travel {
+    font-size: 2.2vw;
+    float: left;
+    width: 46%;
+}
+.photos {
+    display: flex;
+    flex-flow: column;
+    float: left;
+    width: 27%;
+    height: 20vw;
+}
+#fot1 {
+    margin-top: 10vw;
+    position: relative;
+    z-index: 1;
+}
+#fot2 {
+    margin-top: 13vw;
+    position: relative;
+    z-index: 2;
+    top: 5vw;
+    left: -5vw;
 }
