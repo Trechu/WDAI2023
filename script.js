@@ -58,21 +58,7 @@ document.getElementById("recom-link").onclick = function() {
     }
     document.getElementById("my-recom").style.display = 'block';
 };
-document.getElementById("contact-link").onclick = function() {
-    const navs = document.getElementsByClassName("nav");
-    for(let i = 0; i < navs.length; i++) {
-        navs[i].style.fontWeight = "500";
-        navs[i].style.textShadow = 'none';
-    }
-    var element = document.getElementById("contact-link");
-    element.style.fontWeight = "550";
-    element.style.textShadow = "1px 1px #000000";
-    const articles = document.getElementsByClassName("article-spot");
-    for(let i = 0; i < articles.length; i++){
-        articles[i].style.display = "none";
-    }
-    document.getElementById("my-contact").style.display = 'block';
-};
+
 
 document.getElementById("submit-button").onclick = function(){
     var flag = 0;
