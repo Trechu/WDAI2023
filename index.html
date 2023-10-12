@@ -15,9 +15,7 @@
                 <b>About me page</b>
             </header>
             <header id="clock">
-
                 <time id="time">
-                    Placeholder
                 </time>
             </header>
         </header>
@@ -25,22 +23,80 @@
             <button class="nav" id="info-link">O mnie</button>
             <button class="nav" id="hobby-link">Hobby</button>
             <button class="nav" id="recom-link">Rekomendacje</button>
-            <button class="nav" id="contact-link">Kontakt</button>
         </nav>
         <article class="article-spot" id="my-info">
             <h1 id="welcome-sign">Witaj!</h1><hr>
             <p>Nazywam się Tomasz i jestem studentem II roku Informatyki na Akademii Górniczo-Hutniczej w Krakowie</p>
             <p>Znajdujesz się właśnie na mojej stronie, którą tworzę w ramach mikro projektu na przedmiocie WDAI</p>
-            
+            <p>Zawiera ona zakładki, dzięki którym możesz dokładniej poznać moje zainteresowania</p>
+            <p>Jeżeli chcesz się ze mną skontakować to śmiało wypełnij formularz w zakładce rekomendacje a ja odezwę się do ciebie w najbliższym czasie </p>
         </article>
         <article class="article-spot" id="my-hobby">
-            Hobby
-        </article>
+            <section id="travel">
+
+                <h2 id="travel-h"> Podróżowanie </h2> <hr>
+                <p class="travel-p"> Jednym z moich hobby (chociaż ciężko to tak nazwać)
+                    jest zwiedzanie świata. Wraz ze swoją rodziną, raz do dwóch razy do roku
+                    staramy się zorganizować wycieczkę za granicę, do krajów które przykuły
+                    naszą uwagę ze względu na ich kulturę, zabytki czy sposób w jaki można tam wypoczywać.</p>
+                    <br>
+                    <p class="travel-p">
+                        Niektóre z ciekawszych krajów które udało mi się do tej pory odwiedzić to:
+                    </p>
+                    <ul id="travel-list">
+                        <li> Japonia </li>
+                        <li> Dominikana </li>
+                        <li> Bali </li>
+                        <li> Madagaskar </li>
+                    </ul>
+            </section>
+            <div id="limiter">
+
+                <img src="bali.jpg" class="photos" id="fot1">
+                <img src="jap.jpg" class="photos" id="fot2">
+            </div>
+            <video id="vid" controls="controls" muted>
+                <source src="StormlightArchive.mp4" type="video/mp4">
+            </video>
+            <section id="books">
+                <h2 id="book-h">
+                    Książki 
+                </h2>
+                <hr>
+                <p class="book-p">
+                        Innym moim zainteresowaniem jest czytanie książek.
+                    Gatunkiem który najabrdziej przypadł mi do gustu jest
+                    fantasy/sci-fi, a w szczególności seria 
+                    "Archiwa burzowego światła" autorstwa Brandona Sandersona. 
+                </p><br>
+                <p class="book-p">
+                    Mimo że jest to seria która wymaga od czytającego dużego 
+                    poświęcenia czasowego to mam nadzieję że film będący szybkim
+                    overview serii który zamieściłem zachęci cię do
+                    podjęcia się tej serii.
+                </p>
+            </section>
+
+            <section id="music">
+                <h2 id="music-h">
+                    Muzyka
+                </h2>
+                <hr>
+                <p id="music-p">
+                    Ostatnim z moich głównych zainteresowań jest muzyka.
+                    Mimo że osobiście nie jestem twórcą to muzyka towarzyszy
+                    mi praktycznie przez cały dzień.<br>
+                    Jeżeli chodzi o gatunki których słucham to główne z nich to Rock, JPop oraz Vocaloid.<br>
+                    Podobnie jest z grami, które odpalam w wolnym czasie.
+                    Większość z nich to rytmówki takie jak OSU, DDR czy ProjectSekai.
+                </p>
+            </section>
+
+            </article>
         <article class="article-spot" id="my-recom">
             <p id="recom-text">Jeżeli zainteresowały Cię książki, które polecałem we 
-                wcześniejszej zakładce to wypełnij ten krótki formularz
-                podając swoje dane kontaktowe oraz to co przypadło Ci 
-                do gustu, a ja odezwę się do Ciebie z moimi sugestiami
+                wcześniejszej zakładce lub chcesz się ze mną skontakować to wypełnij ten krótki formularz
+                podając swoje dane kontaktowe oraz to co chcesz mi przekazać, a ja odezwę się do Ciebie z moimi sugestiami
                 </p>
             <form>
                 <label for="fname" class="formlabel">Imię:</label><br>
@@ -49,7 +105,7 @@
                 <input type="text" id="sname" name="sname" class="submitter"><br>
                 <label for="email" class="formlabel">Adres email:</label><br>
                 <input type="email" id="email" name="email" class="submitter"><br>
-                <label for="fill" class="formlabel">O jakiej serii chciałbyś usłyszeć:</label><br>
+                <label for="fill" class="formlabel">W jakiej sprawie piszesz:</label><br>
                 <input type="text" id="fill" name="fill" class="submitter"><br>
             </form>
             <input type="submit" id="submit-button"><br>
@@ -57,9 +113,7 @@
             <img src="cross.jpg" class="valid-img" id="cross">
             <img src="check.jpg" class = "valid-img" id="check">
         </article>
-        <article class="article-spot" id="my-contact">
-            Kontakt
-        </article>
+
         <footer id="footer-spot">
             2023 &copy; Tomasz Grzybacz - About me page
         </footer>

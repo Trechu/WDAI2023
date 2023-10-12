@@ -18,50 +18,53 @@ button.nav:hover {
 */
 button.nav { 
     background:none; border:none; 
-    font-size: 2vw;
+    font-size: 2.2vh;
     color: wheat;
 }
 
 .flex-container {
-
     display: flex;
 }
 
 #front-header {
-    padding: 5%;
+    padding: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #303030;
     font-size: 5vw;
-    width: 40vw;
+    width: 44vw;
+    height: 8vh;
     text-align: center;
     color: wheat;
 
 }
 
 #clock {
-    padding: 5%;
+    padding: 3vw;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #303030;
     text-align: center;
     font-size: 5vw;
-    width: 40vw;
+    width: 44vw;
+    height: 8vh;
     color: wheat;
     
 }
 
 #nav-menu {
     display: flex;
+    position: sticky;
+    overflow: hidden;
+    z-index: 999;
+    top: 0;
     background-color: gray;
-    width: 96%;
-    height: 4vh;
-    padding: 2%;
+    width: 100%;
+    height: 7.5vh;
     align-items: center;
     flex-direction: row;
-    font-size: 1.5em;
     justify-content: center;
 }
 
@@ -84,36 +87,43 @@ button.nav {
     display: flex;
     background-color: whitesmoke;
     width: 90%;
-    height: 70vh;
+    height: 77vh;
     padding: 5%;
     font-size: 1.5em;
     overflow: scroll;
 }
 #welcome-sign {
-    margin-bottom: 3vw;
+    font-size: 5vh;
+    margin-bottom: 3vh;
     text-align: center;
 }
 #recom-text {
     text-align: center;
+    font-size: 3vh;
 }
 
 .submitter {
-    width: 25vw;
-    height: 2vw;
+    width: 20vw;
+    height: 3vh;
 }
+.formlabel {
+    font-size: 3vh;
+}
+
 #footer-spot {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #303030;
-    padding: 25px;
     color: wheat;
+    height: 2.5vw;
     font-size: 1vw;
 }
 
 #my-info {
     text-align: center;
     display: block;
+    font-size: 2.5vh;
 }
 
 #my-hobby {
@@ -129,4 +139,84 @@ button.nav {
 #info-link {
     font-weight: 550;
     text-shadow: 1px 1px #000000;
+}
+
+/* HOBBY PAGE CSS PART */
+
+#travel-h {
+    text-align: center;
+    align-items: center;
+}
+.travel-p {
+    font-size: 1.8vw;
+}
+#travel {
+    font-size: 2vw;
+    float: left;
+    width: 43%;
+    height: 50vw;
+    margin-right: 1%;
+}
+.photos {
+    border: #000000;
+    border-radius: 3%;
+    display: flex;
+    flex-flow: column;
+    float: left;
+}
+#limiter {
+    height: 50vw;
+}
+#fot1 {
+    margin-top: 10vw;
+    position: relative;
+    z-index: 1;
+    width: 27%;
+    height: 20vw;
+}
+#fot2 {
+    margin-top: 13vw;
+    position: relative;
+    z-index: 2;
+    top: 5vw;
+    left: -5vw;
+    width: 29%;
+    height: 17vw;
+}
+
+#books {
+    margin-top: -1vw;
+    font-size: 2vw;
+    float: right;
+    width: 46%;
+    height: 50vw;
+}
+#book-h {
+    text-align: center;
+    align-items: center;
+}
+.book-p {
+    font-size: 1.8vw;
+}
+#vid {
+    margin-top: 9vw;
+    margin-left: 3vw;
+    float: left;
+    max-width: 45%;
+    max-height: auto;
+    border: #000000;
+    border-radius: 3%;
+}
+#music {
+    clear: both;
+    margin-top: -3vw;
+}
+#music-h {
+    text-align: center;
+    align-items: center;
+    font-size: 2.7vw;
+}
+#music-p {
+    text-align: center;
+    font-size: 1.8vw;
 }
