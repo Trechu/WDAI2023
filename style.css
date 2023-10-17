@@ -8,14 +8,11 @@ body {
 .nav {
     margin: auto;
 }
-/*
-                        PROBLEM WITH HOVER
 
 button.nav:hover {
-    font-weight: 550;
-    text-shadow: 1px 1px #000000;
+    font-weight: 550 !important;
+    text-shadow: 1px 1px #000000 !important;
 }
-*/
 button.nav { 
     background:none; border:none; 
     font-size: 2.2vh;
@@ -66,6 +63,7 @@ button.nav {
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    opacity: 0.9;
 }
 
 .valid-img {
@@ -73,8 +71,14 @@ button.nav {
     height: 4vw;
     float: left;
 }
+#check-container {
+    align-content: center;
+    width: 100%;
+    align-items: center;
+}
 
 #check {
+    align-self: center;
     display: none;
 }
 
@@ -97,19 +101,38 @@ button.nav {
     margin-bottom: 3vh;
     text-align: center;
 }
+/*                  Recommendation section          */
 #recom-text {
     text-align: center;
     font-size: 3vh;
 }
-
+#form-container {
+    margin-left: auto;
+    margin-right: auto;
+    color: wheat;
+    border: wheat;
+    border-width: 0.35vw;
+    background-color: #303030;
+    border-style: groove;
+    border-radius: 2%;
+    width: 35vw;
+    padding: 2%;
+}
 .submitter {
-    width: 20vw;
+    border-style: groove;
+    border-radius: 5%;
+    background-color: whitesmoke;
+    width: 100%;
     height: 3vh;
 }
 .formlabel {
-    font-size: 3vh;
+    font-size: 2.5vh;
 }
-
+#submit-button {
+    width: fit-content;
+    height: fit-content;
+    font-size: 1.5vw;
+}
 #footer-spot {
     display: flex;
     align-items: center;
@@ -131,6 +154,10 @@ button.nav {
 }
 #my-recom {
     display: none;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    
 }
 #my-contact {
     display: none;
@@ -156,6 +183,9 @@ button.nav {
     width: 43%;
     height: 50vw;
     margin-right: 1%;
+}
+#travel-list {
+    font-size: 1.85vw;
 }
 .photos {
     border: #000000;
@@ -209,7 +239,7 @@ button.nav {
 }
 #music {
     clear: both;
-    margin-top: -3vw;
+    margin-top: -4vw;
 }
 #music-h {
     text-align: center;
@@ -219,4 +249,5 @@ button.nav {
 #music-p {
     text-align: center;
     font-size: 1.8vw;
+    margin-bottom: 3vw;
 }
