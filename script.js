@@ -25,7 +25,8 @@ document.getElementById("info-link").onclick = function() {
     }
     document.getElementById("my-info").style.display = "block";
     
-};
+}
+
 document.getElementById("hobby-link").onclick = function() {
     const navs = document.getElementsByClassName("nav");
     for(let i = 0; i < navs.length; i++) {

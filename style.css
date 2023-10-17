@@ -11,11 +11,12 @@ body {
 /*
                         PROBLEM WITH HOVER
 
+                    }
+                    */
 button.nav:hover {
-    font-weight: 550;
-    text-shadow: 1px 1px #000000;
+    font-weight: 550 !important;
+    text-shadow: 1px 1px #000000 !important;
 }
-*/
 button.nav { 
     background:none; border:none; 
     font-size: 2.2vh;
